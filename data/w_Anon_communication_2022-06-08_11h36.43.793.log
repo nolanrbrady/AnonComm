@@ -1,0 +1,155 @@
+0.9670 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.0319 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+6.7572 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc63620a4f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc636e1a700>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7574 	EXP 	window1: mouseVisible = True
+6.7574 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.7574 	EXP 	window1: recordFrameIntervals = False
+6.9246 	EXP 	window1: recordFrameIntervals = True
+7.1084 	EXP 	Screen (0) actual frame rate measured at 60.09Hz
+7.1085 	EXP 	window1: recordFrameIntervals = False
+9.1273 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1321 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.1399 	EXP 	Imported testsurvey.csv as conditions, 4 conditions, 6 params
+9.1399 	WARNING 	Form background_survey included field no longer used questionText. Replacing with new name 'itemText'
+9.1399 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+9.1400 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+9.1400 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+9.1400 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+9.1408 	EXP 	Question text: What is your gender?
+9.1813 	EXP 	window1: mouseVisible = True
+9.2187 	EXP 	Question text: How old are you?
+9.2302 	EXP 	Question text: How many hours a week do you spend on social media?
+9.2442 	EXP 	Question text: How many hours a week do you spend playing video games?
+9.2580 	EXP 	window1: mouseVisible = True
+9.2843 	EXP 	Created background_survey = <psychopy.visual.form.Form object at 0x7fc6367a2610>
+9.2857 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.2922 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.2971 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3019 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='You have 15 more seconds.', units='height', win=Window(...), wrapWidth=1)
+9.3034 	EXP 	Created end_discuss = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_discuss', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3094 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3137 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3148 	EXP 	Created main_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='main_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3159 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3203 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3240 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3271 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='You have 15 more seconds.', units='height', win=Window(...), wrapWidth=1)
+9.3286 	EXP 	Created end_discuss = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_discuss', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.3326 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3367 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.3410 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="You're all done. Thank you for your time!", units='height', win=Window(...), wrapWidth=1)
+9.3672 	EXP 	unnamed Form: autoLog = True
+9.3672 	EXP 	background_survey: name = 'background_survey'
+9.3672 	EXP 	background_survey: depth = 0
+9.3672 	EXP 	text_2: autoDraw = True
+10.6068 	DATA 	Keypress: space
+10.7071 	EXP 	text_2: autoDraw = False
+10.7071 	EXP 	text: autoDraw = True
+10.7071 	EXP 	background_survey: autoDraw = True
+12.1467 	DATA 	Mouse: wheel shift=(0,0), pos=(963,663)
+12.1658 	DATA 	Mouse: wheel shift=(0,0), pos=(975,656)
+12.1901 	DATA 	Mouse: wheel shift=(0,1), pos=(976,656)
+12.2182 	DATA 	Mouse: wheel shift=(0,3), pos=(976,656)
+12.2377 	DATA 	Mouse: wheel shift=(0,2), pos=(976,655)
+12.2675 	DATA 	Mouse: wheel shift=(0,2), pos=(976,655)
+12.2943 	DATA 	Mouse: wheel shift=(0,2), pos=(976,655)
+12.6140 	DATA 	Mouse: wheel shift=(0,0), pos=(1022,543)
+12.6145 	DATA 	Mouse: wheel shift=(0,0), pos=(1022,543)
+12.6408 	DATA 	Mouse: wheel shift=(0,3), pos=(1022,542)
+12.6561 	DATA 	Mouse: wheel shift=(0,2), pos=(1022,542)
+12.6765 	DATA 	Mouse: wheel shift=(0,2), pos=(1022,542)
+12.7149 	DATA 	Mouse: wheel shift=(0,2), pos=(1022,542)
+12.8297 	DATA 	Mouse: wheel shift=(0,2), pos=(1022,542)
+12.9660 	DATA 	Mouse: wheel shift=(0,0), pos=(1022,542)
+12.9841 	DATA 	Mouse: wheel shift=(0,-1), pos=(1022,542)
+13.0078 	DATA 	Mouse: wheel shift=(0,-1), pos=(1022,542)
+13.0352 	DATA 	Mouse: wheel shift=(0,-2), pos=(1022,542)
+13.0360 	DATA 	Mouse: wheel shift=(0,-2), pos=(1022,542)
+13.0546 	DATA 	Mouse: wheel shift=(0,-6), pos=(1022,542)
+13.0784 	DATA 	Mouse: wheel shift=(0,-3), pos=(1022,542)
+13.3346 	DATA 	Mouse: wheel shift=(0,0), pos=(1015,549)
+13.3579 	DATA 	Mouse: wheel shift=(0,0), pos=(1015,549)
+13.3853 	DATA 	Mouse: wheel shift=(0,1), pos=(1015,549)
+13.8945 	DATA 	Mouse: wheel shift=(0,0), pos=(1017,549)
+13.9219 	DATA 	Mouse: wheel shift=(0,-1), pos=(1017,549)
+13.9411 	DATA 	Mouse: wheel shift=(0,-1), pos=(1017,549)
+13.9662 	DATA 	Mouse: wheel shift=(0,-4), pos=(1017,549)
+13.9948 	DATA 	Mouse: wheel shift=(0,-2), pos=(1017,549)
+14.0136 	DATA 	Mouse: wheel shift=(0,-3), pos=(1017,549)
+14.5545 	DATA 	Mouse: wheel shift=(0,0), pos=(1018,549)
+14.5784 	DATA 	Mouse: wheel shift=(0,0), pos=(1018,549)
+14.6059 	DATA 	Mouse: wheel shift=(0,-1), pos=(1018,549)
+14.6066 	DATA 	Mouse: wheel shift=(0,-1), pos=(1018,549)
+14.6499 	DATA 	Mouse: wheel shift=(0,-7), pos=(1018,548)
+14.6772 	DATA 	Mouse: wheel shift=(0,-3), pos=(1018,548)
+14.6951 	DATA 	Mouse: wheel shift=(0,-3), pos=(1018,548)
+14.9690 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,554)
+14.9920 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,554)
+15.0188 	DATA 	Mouse: wheel shift=(0,3), pos=(1013,554)
+15.0366 	DATA 	Mouse: wheel shift=(0,4), pos=(1013,554)
+15.0612 	DATA 	Mouse: wheel shift=(0,2), pos=(1013,554)
+15.0883 	DATA 	Mouse: wheel shift=(0,3), pos=(1013,554)
+15.1060 	DATA 	Mouse: wheel shift=(0,3), pos=(1013,554)
+15.1566 	DATA 	Mouse: wheel shift=(0,3), pos=(1013,554)
+15.4989 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,554)
+15.5168 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,554)
+15.5405 	DATA 	Mouse: wheel shift=(0,1), pos=(1013,554)
+15.5683 	DATA 	Mouse: wheel shift=(0,1), pos=(1013,554)
+15.5856 	DATA 	Mouse: wheel shift=(0,2), pos=(1013,554)
+16.9402 	DATA 	Mouse: Left button down, pos=(472,759)
+17.0505 	DATA 	Mouse:  Left button up, pos=(472,759)
+17.5604 	DATA 	Mouse: Left button down, pos=(475,762)
+17.6301 	DATA 	Mouse:  Left button up, pos=(475,762)
+17.6974 	DATA 	Mouse: Left button down, pos=(475,762)
+17.8071 	DATA 	Mouse:  Left button up, pos=(475,762)
+17.8770 	DATA 	Mouse: Left button down, pos=(475,762)
+17.9723 	DATA 	Mouse:  Left button up, pos=(475,762)
+19.9254 	DATA 	Mouse: Left button down, pos=(843,764)
+19.9941 	DATA 	Mouse:  Left button up, pos=(843,764)
+20.0657 	DATA 	Mouse: Left button down, pos=(843,764)
+20.1599 	DATA 	Mouse:  Left button up, pos=(843,764)
+20.8876 	DATA 	Mouse: Left button down, pos=(1230,761)
+20.9813 	DATA 	Mouse:  Left button up, pos=(1229,761)
+21.3654 	DATA 	Mouse: wheel shift=(0,0), pos=(1601,545)
+21.3833 	DATA 	Mouse: wheel shift=(0,0), pos=(1601,545)
+21.4072 	DATA 	Mouse: wheel shift=(0,1), pos=(1601,545)
+21.4341 	DATA 	Mouse: wheel shift=(0,1), pos=(1601,545)
+21.4347 	DATA 	Mouse: wheel shift=(0,2), pos=(1601,545)
+21.4525 	DATA 	Mouse: wheel shift=(0,2), pos=(1601,545)
+21.4771 	DATA 	Mouse: wheel shift=(0,2), pos=(1601,546)
+21.6841 	DATA 	Mouse: wheel shift=(0,0), pos=(1543,533)
+21.7123 	DATA 	Mouse: wheel shift=(0,0), pos=(1501,521)
+21.7128 	DATA 	Mouse: wheel shift=(0,-1), pos=(1455,505)
+21.7315 	DATA 	Mouse: wheel shift=(0,-1), pos=(1412,494)
+21.7567 	DATA 	Mouse: wheel shift=(0,-2), pos=(1353,486)
+21.7571 	DATA 	Mouse: wheel shift=(0,-2), pos=(1321,486)
+21.7849 	DATA 	Mouse: wheel shift=(0,-2), pos=(1219,484)
+21.9947 	DATA 	Mouse: wheel shift=(0,0), pos=(972,504)
+22.0132 	DATA 	Mouse: wheel shift=(0,-1), pos=(972,504)
+22.0388 	DATA 	Mouse: wheel shift=(0,-1), pos=(973,503)
+22.0393 	DATA 	Mouse: wheel shift=(0,-2), pos=(973,503)
+22.0397 	DATA 	Mouse: wheel shift=(0,-2), pos=(973,503)
+22.0667 	DATA 	Mouse: wheel shift=(0,-3), pos=(974,503)
+22.0673 	DATA 	Mouse: wheel shift=(0,-3), pos=(976,501)
+22.0678 	DATA 	Mouse: wheel shift=(0,-4), pos=(984,494)
+22.0683 	DATA 	Mouse: wheel shift=(0,-4), pos=(997,486)
+22.0866 	DATA 	Mouse: wheel shift=(0,-4), pos=(1010,480)
+22.1105 	DATA 	Mouse: wheel shift=(0,-4), pos=(1029,468)
+22.1109 	DATA 	Mouse: wheel shift=(0,-4), pos=(1037,463)
+22.1389 	DATA 	Mouse: wheel shift=(0,-4), pos=(1046,456)
+22.5294 	DATA 	Mouse: wheel shift=(0,0), pos=(1048,458)
+22.5569 	DATA 	Mouse: wheel shift=(0,-1), pos=(1048,458)
+22.5574 	DATA 	Mouse: wheel shift=(0,-1), pos=(1047,458)
+22.5750 	DATA 	Mouse: wheel shift=(0,-8), pos=(1047,458)
+22.5995 	DATA 	Mouse: wheel shift=(0,-3), pos=(1047,458)
+22.6000 	DATA 	Mouse: wheel shift=(0,-4), pos=(1048,457)
+22.6267 	DATA 	Mouse: wheel shift=(0,-4), pos=(1048,457)
+22.6272 	DATA 	Mouse: wheel shift=(0,-4), pos=(1048,457)
+22.6457 	DATA 	Mouse: wheel shift=(0,-4), pos=(1048,457)
+22.6720 	DATA 	Mouse: wheel shift=(0,-4), pos=(1047,456)
+22.6724 	DATA 	Mouse: wheel shift=(0,-4), pos=(1047,456)
+22.7005 	DATA 	Mouse: wheel shift=(0,-4), pos=(1047,456)
+32.2763 	DATA 	Mouse: Left button down, pos=(1430,771)
+32.3449 	DATA 	Mouse:  Left button up, pos=(1430,771)
+33.0043 	DATA 	Keypress: escape
+33.9104 	EXP 	window1: mouseVisible = True

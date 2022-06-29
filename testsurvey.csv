@@ -1,0 +1,8 @@
+questionText;questionWidth;type;responseWidth;options;layout
+What is your gender?;1;radio;1;Male,Female,Other;horiz
+How old are you?;1;free text;1
+What year of school are you in?;1;rating;1;Freshman,Sophomore,Junior,Senior,Graduate;horiz
+How social would you say you are? 1 = not social and 5 = very social;1;rating;1;1,2,3,4,5;horiz
+How open are you with strangers? 1 = not open and 5 = very open;1;rating;1;1,2,3,4,5;horiz
+How many hours a week do you spend on social media?;1;free text;1
+How many hours a week do you spend playing video games?;1;free text;1

@@ -1,0 +1,24 @@
+0.9956 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.9129 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+8.7704 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fca99372610>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fca9a0fb850>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7706 	EXP 	window1: mouseVisible = True
+8.7707 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.7707 	EXP 	window1: recordFrameIntervals = False
+8.9357 	EXP 	window1: recordFrameIntervals = True
+9.1192 	EXP 	Screen (0) actual frame rate measured at 59.73Hz
+9.1192 	EXP 	window1: recordFrameIntervals = False
+11.3526 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3582 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3677 	EXP 	Imported testsurvey.csv as conditions, 4 conditions, 6 params
+11.3678 	WARNING 	Form background included field no longer used questionText. Replacing with new name 'itemText'
+11.3678 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+11.3678 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+11.3678 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+11.3679 	WARNING 	questionWidth is a deprecated heading for Forms. Use itemWidth instead
+11.3689 	EXP 	Question text: Are you alone?
+11.4071 	EXP 	window1: mouseVisible = True
+11.4599 	EXP 	Question text: What is your gender?
+11.4746 	EXP 	window1: mouseVisible = True
+11.5113 	EXP 	Question text: How old are you?
+11.5226 	EXP 	Question text: What year of school are you in?
+12.0867 	EXP 	window1: mouseVisible = True
