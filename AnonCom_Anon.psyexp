@@ -83,14 +83,14 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="60" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="Nice work on the practice!&amp;#10;&amp;#10;Now that you've had a chance to practice do you have any questions? You have one minute to rest and ask questions.&amp;#10;" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="end_main_intro">
-        <Param val="'q'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'q', 'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
@@ -102,7 +102,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="60" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
@@ -130,7 +130,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Thank you for taking part in our study.&amp;#10;&amp;#10;Our goal with this study is to understand the ways in which people communicate a little better. For this experiment you will either be talking with someone directly or with them through an anonymous chat room. We will provide a series of questions for you to discuss together, once you have been read the question and are ready to start discussing please press tell me. You will be given one minute to share with the other person your answer to the prompt. If you have any questions you are always welcome to ask your proctor.&amp;#10;&amp;#10;To move on please press the &quot;spacebar&quot;" valType="str" updates="constant" name="text"/>
+        <Param val="Thank you for taking part in our study.&amp;#10;&amp;#10;Our goal with this study is to understand the ways in which people communicate a little better. For this experiment you will be talking with someone through an anonymous chat room. We will provide a series of questions for you to discuss together. During your discussion please do not share any personal information such as age, gender, ethnicity, etc. You will be given one minute to discuss the prompt with the other person. If you happen to finish before then you can press spacebar. If you hear three tones that means you've reached the end of the prompt and the experiment is moving forward.&amp;#10;&amp;#10;If at any point you have any questions you are always welcome to ask your proctor.&amp;#10;&amp;#10;To move on please press the &quot;spacebar&quot;" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -754,14 +754,14 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="60" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="You're about to start the inflamatory introduction. Please rest for 30 seconds before beginning." valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="skip">
-        <Param val="'q'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'q', 'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
@@ -773,7 +773,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="30" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="30" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="last key" valType="str" updates="constant" name="store"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
@@ -797,7 +797,7 @@
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="30" valType="code" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="30" valType="code" updates="constant" name="stopVal"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="Press the Spacebar to continue" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
@@ -1005,7 +1005,7 @@
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_8">
-        <Param val="'q'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'q', 'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
@@ -1154,7 +1154,7 @@
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_9">
-        <Param val="'q'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'q', 'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
@@ -1576,7 +1576,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Before we start the experiment we are going to ask you describe a couple of things. You will have one minute to write your response on your phone. There is no need to send this to anyone.&amp;#10;&amp;#10;You will have 60 seconds to write your response, but if you finish early please press spacebar.&amp;#10;&amp;#10;Once you're ready to start please press spacebar." valType="str" updates="constant" name="text"/>
+        <Param val="Before we start the experiment we are going to ask you describe a couple of things. You will have one minute to type your response on your phone. There is no need to send this to anyone.&amp;#10;&amp;#10;You will have 60 seconds to write your response, but if you finish early please press spacebar.&amp;#10;&amp;#10;Once you're ready to start please press spacebar." valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
