@@ -1,0 +1,282 @@
+1.6226 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.7153 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f9900dac970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f9900fe4940>, multiSample=False, name='window1', numSamples=2, pos=(530, 350), screen=0, size=array([3440, 2000]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.7154 	EXP 	window1: mouseVisible = True
+11.7154 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.7155 	EXP 	window1: recordFrameIntervals = False
+11.8818 	EXP 	window1: recordFrameIntervals = True
+12.0655 	EXP 	Screen (0) actual frame rate measured at 59.95Hz
+12.0655 	EXP 	window1: recordFrameIntervals = False
+12.1120 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+14.6439 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6558 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.6863 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='surveyQRcode.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+14.6989 	EXP 	Created text_20 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_20', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7003 	EXP 	Created text_14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_14', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.7606 	EXP 	Sound sound_6 set volume 1.000
+14.7609 	EXP 	Sound sound_9 set volume 1.000
+14.7610 	EXP 	Sound finish_sound_control_prompt set volume 1.000
+14.7664 	EXP 	Created text_23 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_23', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7730 	EXP 	Created text_21 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_21', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7731 	EXP 	Sound sound_2 set volume 1.000
+14.7732 	EXP 	Sound sound_3 set volume 1.000
+14.7733 	EXP 	Sound finish_sound_control_resp set volume 1.000
+14.7815 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7816 	EXP 	Sound sound_11 set volume 1.000
+14.7816 	EXP 	Sound sound_12 set volume 1.000
+14.7817 	EXP 	Sound sound_13 set volume 1.000
+14.7993 	EXP 	Created text_19 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_19', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8009 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8070 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8073 	EXP 	Sound sound_15 set volume 1.000
+14.8074 	EXP 	Sound sound_16 set volume 1.000
+14.8077 	EXP 	Sound finish_sound_practice_prompt set volume 1.000
+14.8150 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8232 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8234 	EXP 	Sound sound_4 set volume 1.000
+14.8235 	EXP 	Sound sound_5 set volume 1.000
+14.8235 	EXP 	Sound finish_sound_practice_resp set volume 1.000
+14.8308 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8312 	EXP 	Sound sound_11 set volume 1.000
+14.8313 	EXP 	Sound sound_12 set volume 1.000
+14.8314 	EXP 	Sound sound_13 set volume 1.000
+14.8335 	EXP 	Created main_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='main_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8354 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8420 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8424 	EXP 	Sound sound_19 set volume 1.000
+14.8425 	EXP 	Sound sound_20 set volume 1.000
+14.8425 	EXP 	Sound finish_sound_main_prompt set volume 1.000
+14.8497 	EXP 	Created text_15 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_15', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8568 	EXP 	Created text_16 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_16', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8569 	EXP 	Sound sound_7 set volume 1.000
+14.8570 	EXP 	Sound sound_8 set volume 1.000
+14.8571 	EXP 	Sound finish_sound_main_resp set volume 1.000
+14.8649 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8652 	EXP 	Sound sound_11 set volume 1.000
+14.8653 	EXP 	Sound sound_12 set volume 1.000
+14.8653 	EXP 	Sound sound_13 set volume 1.000
+14.8733 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8808 	EXP 	Created text_22 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_22', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press the Spacebar to continue', units='height', win=Window(...), wrapWidth=1)
+14.8827 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8888 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8890 	EXP 	Sound sound_17 set volume 1.000
+14.8890 	EXP 	Sound sound_18 set volume 1.000
+14.8891 	EXP 	Sound finish_sound_inflam_prompt set volume 1.000
+14.8950 	EXP 	Created text_17 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_17', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.9025 	EXP 	Created text_18 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_18', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.9028 	EXP 	Sound sound_14 set volume 1.000
+14.9029 	EXP 	Sound sound_21 set volume 1.000
+14.9029 	EXP 	Sound finish_sound_inflam_resp set volume 1.000
+14.9097 	EXP 	Created rest_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rest_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.9099 	EXP 	Sound sound_11 set volume 1.000
+14.9100 	EXP 	Sound sound_12 set volume 1.000
+14.9103 	EXP 	Sound sound_13 set volume 1.000
+14.9167 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="You're all done. Thank you for your time!", units='height', win=Window(...), wrapWidth=1)
+14.9374 	EXP 	text_2: autoDraw = True
+332.5325 	DATA 	Keypress: space
+332.5401 	EXP 	text_2: autoDraw = False
+332.5401 	EXP 	text: autoDraw = True
+332.5401 	EXP 	image: autoDraw = True
+335.9042 	DATA 	Keypress: space
+335.9112 	EXP 	text: autoDraw = False
+335.9112 	EXP 	image: autoDraw = False
+335.9112 	EXP 	text_20: autoDraw = True
+342.9280 	DATA 	Keypress: space
+342.9572 	EXP 	Imported control_questions.xlsx as conditions, 3 conditions, 1 params
+342.9597 	EXP 	Created sequence: random, trialTypes=3, nReps=0, seed=None
+342.9703 	EXP 	text_20: autoDraw = False
+342.9703 	EXP 	text_19: autoDraw = True
+350.7689 	EXP 	Imported practice_prompt.xlsx as conditions, 3 conditions, 1 params
+350.7722 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+350.7731 	EXP 	New trial (rep=0, index=0): {'practice_question': 'What is your go to guilty pleasure'}
+350.7887 	DATA 	Keypress: space
+350.7953 	EXP 	text_19: autoDraw = False
+350.7953 	EXP 	text_3: height = 0.05
+350.7953 	EXP 	text_3: height = 0.05
+350.7953 	EXP 	text_3: height = 0.05
+350.7953 	EXP 	text_3: text = 'What is your go to guilty pleasure'
+350.7953 	EXP 	text_3: autoDraw = True
+350.7953 	EXP 	text_6: autoDraw = True
+360.6977 	DATA 	Keypress: space
+360.7043 	EXP 	text_3: autoDraw = False
+360.7043 	EXP 	text_6: autoDraw = False
+360.7043 	EXP 	text_7: autoDraw = True
+360.7043 	EXP 	text_8: autoDraw = True
+419.8844 	DATA 	Keypress: space
+419.8916 	EXP 	text_7: autoDraw = False
+419.8916 	EXP 	text_8: autoDraw = False
+419.8916 	EXP 	rest_text: autoDraw = True
+449.8858 	EXP 	New trial (rep=0, index=1): {'practice_question': 'What activity instantly calms you?'}
+449.9336 	EXP 	rest_text: autoDraw = False
+449.9336 	EXP 	rest_text: autoDraw = False
+449.9336 	EXP 	text_3: height = 0.05
+449.9336 	EXP 	text_3: height = 0.05
+449.9336 	EXP 	text_3: height = 0.05
+449.9336 	EXP 	text_3: text = 'What activity instantly calms you?'
+449.9336 	EXP 	text_3: autoDraw = True
+449.9336 	EXP 	text_6: autoDraw = True
+455.5606 	DATA 	Keypress: space
+455.5838 	EXP 	text_3: autoDraw = False
+455.5838 	EXP 	text_6: autoDraw = False
+455.5838 	EXP 	text_7: autoDraw = True
+455.5838 	EXP 	text_8: autoDraw = True
+515.5959 	EXP 	text_7: autoDraw = False
+515.5959 	EXP 	text_8: autoDraw = False
+515.5959 	EXP 	text_7: autoDraw = False
+515.5959 	EXP 	text_8: autoDraw = False
+515.5959 	EXP 	rest_text: autoDraw = True
+545.5970 	EXP 	New trial (rep=0, index=2): {'practice_question': 'Have you ever disliked something and changed your mind? If so, what and why?'}
+545.6187 	EXP 	rest_text: autoDraw = False
+545.6187 	EXP 	rest_text: autoDraw = False
+545.6187 	EXP 	text_3: height = 0.05
+545.6187 	EXP 	text_3: height = 0.05
+545.6187 	EXP 	text_3: height = 0.05
+545.6187 	EXP 	text_3: text = 'Have you ever disliked something and changed your mind? If so, what and why?'
+545.6187 	EXP 	text_3: autoDraw = True
+545.6187 	EXP 	text_6: autoDraw = True
+553.4380 	DATA 	Keypress: space
+553.4541 	EXP 	text_3: autoDraw = False
+553.4541 	EXP 	text_6: autoDraw = False
+553.4541 	EXP 	text_7: autoDraw = True
+553.4541 	EXP 	text_8: autoDraw = True
+613.4646 	EXP 	text_7: autoDraw = False
+613.4646 	EXP 	text_8: autoDraw = False
+613.4646 	EXP 	text_7: autoDraw = False
+613.4646 	EXP 	text_8: autoDraw = False
+613.4646 	EXP 	rest_text: autoDraw = True
+643.4929 	EXP 	rest_text: autoDraw = False
+643.4929 	EXP 	rest_text: autoDraw = False
+643.4929 	EXP 	main_question: height = 0.05
+643.4929 	EXP 	main_question: height = 0.05
+643.4929 	EXP 	main_question: height = 0.05
+643.4929 	EXP 	main_question: text = "Nice work on the practice!\n\nNow that you've had a chance to practice do you have any questions? You have one minute to rest and ask questions.\n"
+643.4929 	EXP 	main_question: autoDraw = True
+703.4920 	EXP 	main_question: autoDraw = False
+713.8582 	EXP 	Imported main_stims.xlsx as conditions, 3 conditions, 6 params
+713.8599 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+713.8616 	EXP 	New trial (rep=0, index=0): {'main_questions': 'What’s the best way a person can spend their time?', 'main_responses': 'Either learning or spending time with friends and family I guess. That seems like a cliché answer though. How do you prefer to spend your time?', 'inflam_questions': 'How tightly should we regulate immigration?', 'inflam_responses': "There needs to be a certain amount of control over it. I don't think we can have just anyone crossing the border unfortunately. What are your thoughts on that?", 'practice_questions': 'Would you say you are an introvert or an extrovert?', 'practice_response': 'Somewhere in the middle I guess. I like spending time with people but after awhile it stresses me out. How about you?'}
+713.8958 	DATA 	Keypress: q
+713.9261 	EXP 	main_question: autoDraw = False
+713.9261 	EXP 	text_4: height = 0.05
+713.9261 	EXP 	text_4: height = 0.05
+713.9261 	EXP 	text_4: height = 0.05
+713.9261 	EXP 	text_4: text = 'What’s the best way a person can spend their time?'
+713.9261 	EXP 	text_4: autoDraw = True
+713.9261 	EXP 	text_10: autoDraw = True
+721.5784 	DATA 	Keypress: space
+721.5987 	EXP 	text_4: autoDraw = False
+721.5987 	EXP 	text_10: autoDraw = False
+721.5987 	EXP 	text_15: autoDraw = True
+721.5987 	EXP 	text_16: autoDraw = True
+781.6026 	EXP 	text_15: autoDraw = False
+781.6026 	EXP 	text_16: autoDraw = False
+781.6026 	EXP 	text_15: autoDraw = False
+781.6026 	EXP 	text_16: autoDraw = False
+781.6026 	EXP 	rest_text: autoDraw = True
+811.6038 	EXP 	New trial (rep=0, index=1): {'main_questions': 'What skill would you like to master?', 'main_responses': "I would love to learn how to juggle. I know that’s kind of weird but it's super fun. Do you have a skill you're trying to learn?", 'inflam_questions': 'Do you think religion should or should not be integrated into education?', 'inflam_responses': 'I think it should. I think a lot of people could benefit from having a role model in their life and something to lean on. Do you have an opinion on that?', 'practice_questions': 'What causes are you passionate about?', 'practice_response': "I really care about the planet…I know that sounds very basic but I really do think it deserves more attention. Do you have a cause you're passionate about?"}
+811.6195 	EXP 	rest_text: autoDraw = False
+811.6195 	EXP 	rest_text: autoDraw = False
+811.6195 	EXP 	text_4: height = 0.05
+811.6195 	EXP 	text_4: height = 0.05
+811.6195 	EXP 	text_4: height = 0.05
+811.6195 	EXP 	text_4: text = 'What skill would you like to master?'
+811.6195 	EXP 	text_4: autoDraw = True
+811.6195 	EXP 	text_10: autoDraw = True
+816.7362 	DATA 	Keypress: space
+816.7472 	EXP 	text_4: autoDraw = False
+816.7472 	EXP 	text_10: autoDraw = False
+816.7472 	EXP 	text_15: autoDraw = True
+816.7472 	EXP 	text_16: autoDraw = True
+876.7502 	EXP 	text_15: autoDraw = False
+876.7502 	EXP 	text_16: autoDraw = False
+876.7502 	EXP 	text_15: autoDraw = False
+876.7502 	EXP 	text_16: autoDraw = False
+876.7502 	EXP 	rest_text: autoDraw = True
+906.7513 	EXP 	New trial (rep=0, index=2): {'main_questions': 'What is the best way to start the day?', 'main_responses': "I'd have to say a cup of coffee and yoga outside. You just feel so relaxed and awake after! Do you have a special morning routine?", 'inflam_questions': 'Should AI be allowed to make judicial decisions?', 'inflam_responses': "I really don't know… on one hand I think it would be more consistent on the other it seems a little dystopic. How do you feel about that?", 'practice_questions': 'Do you have any pet peeves?', 'practice_response': 'Yes! Dishes in the sink are SO triggering! Do you have anything that annoys you like that?'}
+906.7715 	EXP 	rest_text: autoDraw = False
+906.7715 	EXP 	rest_text: autoDraw = False
+906.7715 	EXP 	text_4: height = 0.05
+906.7715 	EXP 	text_4: height = 0.05
+906.7715 	EXP 	text_4: height = 0.05
+906.7715 	EXP 	text_4: text = 'What is the best way to start the day?'
+906.7715 	EXP 	text_4: autoDraw = True
+906.7715 	EXP 	text_10: autoDraw = True
+911.8337 	DATA 	Keypress: space
+911.8526 	EXP 	text_4: autoDraw = False
+911.8526 	EXP 	text_10: autoDraw = False
+911.8526 	EXP 	text_15: autoDraw = True
+911.8526 	EXP 	text_16: autoDraw = True
+971.8630 	EXP 	text_15: autoDraw = False
+971.8630 	EXP 	text_16: autoDraw = False
+971.8630 	EXP 	text_15: autoDraw = False
+971.8630 	EXP 	text_16: autoDraw = False
+971.8630 	EXP 	rest_text: autoDraw = True
+1001.8803 	EXP 	rest_text: autoDraw = False
+1001.8803 	EXP 	rest_text: autoDraw = False
+1001.8803 	EXP 	text_13: autoDraw = True
+1031.8681 	EXP 	text_22: autoDraw = True
+1044.8174 	EXP 	Imported main_stims.xlsx as conditions, 3 conditions, 6 params
+1044.8183 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+1044.8190 	EXP 	New trial (rep=0, index=0): {'main_questions': 'What skill would you like to master?', 'main_responses': "I would love to learn how to juggle. I know that’s kind of weird but it's super fun. Do you have a skill you're trying to learn?", 'inflam_questions': 'Do you think religion should or should not be integrated into education?', 'inflam_responses': 'I think it should. I think a lot of people could benefit from having a role model in their life and something to lean on. Do you have an opinion on that?', 'practice_questions': 'What causes are you passionate about?', 'practice_response': "I really care about the planet…I know that sounds very basic but I really do think it deserves more attention. Do you have a cause you're passionate about?"}
+1044.8472 	DATA 	Keypress: space
+1044.8621 	EXP 	text_13: autoDraw = False
+1044.8621 	EXP 	text_22: autoDraw = False
+1044.8621 	EXP 	text_11: height = 0.05
+1044.8621 	EXP 	text_11: height = 0.05
+1044.8621 	EXP 	text_11: height = 0.05
+1044.8621 	EXP 	text_11: text = 'Do you think religion should or should not be integrated into education?'
+1044.8621 	EXP 	text_11: autoDraw = True
+1044.8621 	EXP 	text_12: autoDraw = True
+1051.0714 	DATA 	Keypress: space
+1051.0781 	EXP 	text_11: autoDraw = False
+1051.0781 	EXP 	text_12: autoDraw = False
+1051.0781 	EXP 	text_17: autoDraw = True
+1051.0781 	EXP 	text_18: autoDraw = True
+1111.0913 	EXP 	text_17: autoDraw = False
+1111.0913 	EXP 	text_18: autoDraw = False
+1111.0913 	EXP 	text_17: autoDraw = False
+1111.0913 	EXP 	text_18: autoDraw = False
+1111.0913 	EXP 	rest_text: autoDraw = True
+1141.0807 	EXP 	New trial (rep=0, index=1): {'main_questions': 'What’s the best way a person can spend their time?', 'main_responses': 'Either learning or spending time with friends and family I guess. That seems like a cliché answer though. How do you prefer to spend your time?', 'inflam_questions': 'How tightly should we regulate immigration?', 'inflam_responses': "There needs to be a certain amount of control over it. I don't think we can have just anyone crossing the border unfortunately. What are your thoughts on that?", 'practice_questions': 'Would you say you are an introvert or an extrovert?', 'practice_response': 'Somewhere in the middle I guess. I like spending time with people but after awhile it stresses me out. How about you?'}
+1141.1054 	EXP 	rest_text: autoDraw = False
+1141.1054 	EXP 	rest_text: autoDraw = False
+1141.1054 	EXP 	text_11: height = 0.05
+1141.1054 	EXP 	text_11: height = 0.05
+1141.1054 	EXP 	text_11: height = 0.05
+1141.1054 	EXP 	text_11: text = 'How tightly should we regulate immigration?'
+1141.1054 	EXP 	text_11: autoDraw = True
+1141.1054 	EXP 	text_12: autoDraw = True
+1147.1720 	DATA 	Keypress: space
+1147.2492 	EXP 	text_11: autoDraw = False
+1147.2492 	EXP 	text_12: autoDraw = False
+1147.2492 	EXP 	text_17: autoDraw = True
+1147.2492 	EXP 	text_18: autoDraw = True
+1207.2541 	EXP 	text_17: autoDraw = False
+1207.2541 	EXP 	text_18: autoDraw = False
+1207.2541 	EXP 	text_17: autoDraw = False
+1207.2541 	EXP 	text_18: autoDraw = False
+1207.2541 	EXP 	rest_text: autoDraw = True
+1237.2558 	EXP 	New trial (rep=0, index=2): {'main_questions': 'What is the best way to start the day?', 'main_responses': "I'd have to say a cup of coffee and yoga outside. You just feel so relaxed and awake after! Do you have a special morning routine?", 'inflam_questions': 'Should AI be allowed to make judicial decisions?', 'inflam_responses': "I really don't know… on one hand I think it would be more consistent on the other it seems a little dystopic. How do you feel about that?", 'practice_questions': 'Do you have any pet peeves?', 'practice_response': 'Yes! Dishes in the sink are SO triggering! Do you have anything that annoys you like that?'}
+1237.2777 	EXP 	rest_text: autoDraw = False
+1237.2777 	EXP 	rest_text: autoDraw = False
+1237.2777 	EXP 	text_11: height = 0.05
+1237.2777 	EXP 	text_11: height = 0.05
+1237.2777 	EXP 	text_11: height = 0.05
+1237.2777 	EXP 	text_11: text = 'Should AI be allowed to make judicial decisions?'
+1237.2777 	EXP 	text_11: autoDraw = True
+1237.2777 	EXP 	text_12: autoDraw = True
+1242.9240 	DATA 	Keypress: space
+1242.9626 	EXP 	text_11: autoDraw = False
+1242.9626 	EXP 	text_12: autoDraw = False
+1242.9626 	EXP 	text_17: autoDraw = True
+1242.9626 	EXP 	text_18: autoDraw = True
+1303.0008 	EXP 	text_17: autoDraw = False
+1303.0008 	EXP 	text_18: autoDraw = False
+1303.0008 	EXP 	text_17: autoDraw = False
+1303.0008 	EXP 	text_18: autoDraw = False
+1303.0008 	EXP 	rest_text: autoDraw = True
+1333.0175 	EXP 	rest_text: autoDraw = False
+1333.0175 	EXP 	rest_text: autoDraw = False
+1333.0175 	EXP 	text_9: autoDraw = True
+1348.0242 	EXP 	text_9: autoDraw = False
+1348.0242 	EXP 	text_9: autoDraw = False
+1348.0791 	EXP 	window1: mouseVisible = True

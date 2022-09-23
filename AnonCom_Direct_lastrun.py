@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on Fri Sep  9 12:31:32 2022
+    on Fri Sep 23 11:37:52 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -2164,7 +2164,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 main = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('main_stims.xlsx', selection=random(3)*7),
+    trialList=data.importConditions('main_stims.xlsx'),
     seed=None, name='main')
 thisExp.addLoop(main)  # add the loop to the experiment
 thisMain = main.trialList[0]  # so we can initialise stimuli with some values
@@ -2846,7 +2846,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 inflam = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('main_stims.xlsx', selection=random(3)*4 ),
+    trialList=data.importConditions('main_stims.xlsx'),
     seed=None, name='inflam')
 thisExp.addLoop(inflam)  # add the loop to the experiment
 thisInflam = inflam.trialList[0]  # so we can initialise stimuli with some values
