@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on Fri Sep 23 11:37:52 2022
+    on Fri Sep 30 11:52:22 2022
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -302,6 +302,14 @@ main_question = visual.TextStim(win=win, name='main_question',
     languageStyle='LTR',
     depth=0.0);
 end_main_intro = keyboard.Keyboard()
+text_24 = visual.TextStim(win=win, name='text_24',
+    text='Press Spacebar whenever you are ready to begin continue.',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-2.0);
+key_resp_13 = keyboard.Keyboard()
 
 # Initialize components for Routine "main_prompt"
 main_promptClock = core.Clock()
@@ -1487,7 +1495,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 practice = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('practice_prompt.xlsx'),
+    trialList=data.importConditions('main_stims.xlsx'),
     seed=None, name='practice')
 thisExp.addLoop(practice)  # add the loop to the experiment
 thisPractice = practice.trialList[0]  # so we can initialise stimuli with some values
@@ -1507,7 +1515,7 @@ for thisPractice in practice:
     continueRoutine = True
     routineTimer.add(20.000000)
     # update component parameters for each repeat
-    text_3.setText(practice_question)
+    text_3.setText(practice_questions)
     start_practice_discuss.keys = []
     start_practice_discuss.rt = []
     _start_practice_discuss_allKeys = []
@@ -2063,8 +2071,11 @@ main_question.setText("Nice work on the practice!\n\nNow that you've had a chanc
 end_main_intro.keys = []
 end_main_intro.rt = []
 _end_main_intro_allKeys = []
+key_resp_13.keys = []
+key_resp_13.rt = []
+_key_resp_13_allKeys = []
 # keep track of which components have finished
-main_introComponents = [main_question, end_main_intro]
+main_introComponents = [main_question, end_main_intro, text_24, key_resp_13]
 for thisComponent in main_introComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -2095,18 +2106,10 @@ while continueRoutine:
         main_question.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(main_question, 'tStartRefresh')  # time at next scr refresh
         main_question.setAutoDraw(True)
-    if main_question.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > main_question.tStartRefresh + 60-frameTolerance:
-            # keep track of stop time/frame for later
-            main_question.tStop = t  # not accounting for scr refresh
-            main_question.frameNStop = frameN  # exact frame index
-            win.timeOnFlip(main_question, 'tStopRefresh')  # time at next scr refresh
-            main_question.setAutoDraw(False)
     
     # *end_main_intro* updates
     waitOnFlip = False
-    if end_main_intro.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    if end_main_intro.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
         # keep track of start time/frame for later
         end_main_intro.frameNStart = frameN  # exact frame index
         end_main_intro.tStart = t  # local t and not account for scr refresh
@@ -2118,11 +2121,42 @@ while continueRoutine:
         win.callOnFlip(end_main_intro.clock.reset)  # t=0 on next screen flip
         win.callOnFlip(end_main_intro.clearEvents, eventType='keyboard')  # clear events on next screen flip
     if end_main_intro.status == STARTED and not waitOnFlip:
-        theseKeys = end_main_intro.getKeys(keyList=['q', 'space'], waitRelease=False)
+        theseKeys = end_main_intro.getKeys(keyList=['q'], waitRelease=False)
         _end_main_intro_allKeys.extend(theseKeys)
         if len(_end_main_intro_allKeys):
             end_main_intro.keys = _end_main_intro_allKeys[-1].name  # just the last key pressed
             end_main_intro.rt = _end_main_intro_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
+    
+    # *text_24* updates
+    if text_24.status == NOT_STARTED and tThisFlip >= 60-frameTolerance:
+        # keep track of start time/frame for later
+        text_24.frameNStart = frameN  # exact frame index
+        text_24.tStart = t  # local t and not account for scr refresh
+        text_24.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(text_24, 'tStartRefresh')  # time at next scr refresh
+        text_24.setAutoDraw(True)
+    
+    # *key_resp_13* updates
+    waitOnFlip = False
+    if key_resp_13.status == NOT_STARTED and tThisFlip >= 60-frameTolerance:
+        # keep track of start time/frame for later
+        key_resp_13.frameNStart = frameN  # exact frame index
+        key_resp_13.tStart = t  # local t and not account for scr refresh
+        key_resp_13.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp_13, 'tStartRefresh')  # time at next scr refresh
+        key_resp_13.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp_13.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp_13.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp_13.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp_13.getKeys(keyList=['space'], waitRelease=False)
+        _key_resp_13_allKeys.extend(theseKeys)
+        if len(_key_resp_13_allKeys):
+            key_resp_13.keys = _key_resp_13_allKeys[-1].name  # just the last key pressed
+            key_resp_13.rt = _key_resp_13_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
     
@@ -2157,6 +2191,17 @@ if end_main_intro.keys != None:  # we had a response
     thisExp.addData('end_main_intro.rt', end_main_intro.rt)
 thisExp.addData('end_main_intro.started', end_main_intro.tStartRefresh)
 thisExp.addData('end_main_intro.stopped', end_main_intro.tStopRefresh)
+thisExp.nextEntry()
+thisExp.addData('text_24.started', text_24.tStartRefresh)
+thisExp.addData('text_24.stopped', text_24.tStopRefresh)
+# check responses
+if key_resp_13.keys in ['', [], None]:  # No response was made
+    key_resp_13.keys = None
+thisExp.addData('key_resp_13.keys',key_resp_13.keys)
+if key_resp_13.keys != None:  # we had a response
+    thisExp.addData('key_resp_13.rt', key_resp_13.rt)
+thisExp.addData('key_resp_13.started', key_resp_13.tStartRefresh)
+thisExp.addData('key_resp_13.stopped', key_resp_13.tStopRefresh)
 thisExp.nextEntry()
 # the Routine "main_intro" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
